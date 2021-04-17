@@ -1,6 +1,17 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:my_professional/widgets/camera/take-photo-view.widget.dart';
 
 class WebAppBar extends StatelessWidget {
+  takePicture() async {
+    final cameras = await availableCameras();
+    print(cameras);
+    final firstCamera = cameras.first;
+
+    Get.to(TakePictureView(camera: firstCamera));
+  }
+
   @override
   Widget build(BuildContext context) {
     return AppBar(
@@ -11,7 +22,7 @@ class WebAppBar extends StatelessWidget {
         Container(
           margin: EdgeInsets.only(right: 10),
           child: IconButton(
-              icon: Icon(Icons.add_a_photo_outlined), onPressed: () {}),
+              icon: Icon(Icons.add_a_photo_outlined), onPressed: takePicture),
         ),
         Container(
           margin: EdgeInsets.only(right: 10),
