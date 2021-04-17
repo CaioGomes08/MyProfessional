@@ -1,0 +1,4 @@
+enum NotificationType {
+  orcamento,
+  atualizacao,
+}
