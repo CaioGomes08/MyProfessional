@@ -1,16 +1,25 @@
-# my_professional
+# MyProfessional
+Aplicativo para estudo de responsividade com Flutter web e mobile
 
-A new Flutter project.
+## O que é o MyProfessional
+É um aplicativo web e mobile desenvolvido com Flutter com o objetivo
+de colocar em prática técnicas de responsividade. A ideia do projeto
+é ser uma rede social profissional onde o prestador criará sua conta
+e nela poderá divulgar seu trabalho através de fotos. 
 
-## Getting Started
+**Aplicativo em desenvolvimento**
 
-This project is a starting point for a Flutter application.
+> ### Features Futuras
+>
+> - Adição de imagens
+> - Busca de profissionais
+> - Solicitação de orçamentos
+> - Resposta de orçamentos
+> - Avaliação do prestador
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Para rodar esse projeto**
+> - Versão Flutter 2.0.1 channel beta
+> - Versão Dart 2.12.0
+> - Git clone nesse repositório 
+> - No terminal digite flutter run
+> - Pode ser executado no browser ou mobile
